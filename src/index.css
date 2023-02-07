@@ -7,6 +7,16 @@ body {
   -moz-osx-font-smoothing: grayscale;
 
   background-color: #071a51;
+
+  /* position: absolute;
+  width: 566px;
+  height: 566px;
+  left: calc(50% - 566px / 2 + 489px);
+  top: 215px;
+
+  background: rgba(170, 217, 217, 0.78);
+  opacity: 0.55;
+  filter: blur(127px); */
 }
 
 code {
