@@ -19,6 +19,11 @@ body {
   filter: blur(127px); */
 }
 
+* {
+  font-family: 'Cormorant Garamond', serif;
+  font-family: 'Outfit', sans-serif;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;

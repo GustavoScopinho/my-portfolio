@@ -1,7 +1,9 @@
+import { Page } from './page/Page'
+
 function App() {
   return (
     <>
-      <h1>Portfolio</h1>
+      <Page />
     </>
   )
 }
