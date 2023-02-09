@@ -15,7 +15,7 @@ export const Section = () => {
         <ContainerText>
           <h1>Gustavo Scopinho</h1>
           <h2>Desenvolvedor </h2>
-          <h2>Front-end</h2>
+          <h3>Front-end</h3>
           <ButtonSC>LINKEDIN</ButtonSC>
         </ContainerText>
         <ContainerImagem>

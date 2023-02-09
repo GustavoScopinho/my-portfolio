@@ -8,11 +8,21 @@ export const Container = styled.section`
   display: flex;
   align-items: center;
   justify-content: space-around;
+  margin-bottom: 20px;
+
+  @media (max-width: 650px) {
+    flex-direction: column-reverse;
+    margin: 0 0 -15% 0;
+  }
 `
 
 export const ContainerImagem = styled.div`
   img {
     width: 450px;
+
+    @media (max-width: 800px) {
+      width: 280px;
+    }
   }
 `
 
@@ -20,10 +30,9 @@ export const ContainerBlur = styled.div`
   z-index: 0;
   position: absolute;
   width: 500px;
-  height: 400px;
+  height: 300px;
   left: calc(50% - 566px / 2 + 580px);
-  top: 300px;
-
+  top: 250px;
   background: rgba(170, 217, 217, 0.78);
   opacity: 0.25;
   filter: blur(127px);
@@ -41,8 +50,32 @@ export const ContainerText = styled.div`
   h1 {
     font-size: 66px;
   }
-  h2 {
+  h2,
+  h3 {
     font-size: 56px;
+  }
+  h3 {
+    color: #b8dffa;
+  }
+
+  @media (max-width: 1040px) {
+    h1 {
+      font-size: 40px;
+    }
+    h2,
+    h3 {
+      font-size: 36px;
+    }
+  }
+
+  @media (max-width: 800px) {
+    h1 {
+      font-size: 38px;
+    }
+    h2,
+    h3 {
+      font-size: 28px;
+    }
   }
 `
 
