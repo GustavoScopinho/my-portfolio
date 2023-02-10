@@ -11,15 +11,19 @@ import ImgGu from '../../assets/gu-profile.png'
 import { Wave } from '../wave/Wave'
 import { Foguete } from '../LottieAnimation/Foguete'
 import { WavesOpacity } from '../wavesOpacity/WavesOpacity'
+import { Rock } from '../rock/Rock'
 
 export const About = () => {
   return (
     <>
       <Container>
-        <ContainerLottie>
+        {/* <ContainerLottie>
           <Foguete />
-        </ContainerLottie>
+        </ContainerLottie> */}
         <Content>
+          <ContainerImage>
+            <img src={ImgGu} alt="" />
+          </ContainerImage>
           <ContainerAbout>
             <h1>
               Sobre <span>mim</span>
@@ -42,12 +46,10 @@ export const About = () => {
               </p>
             </ContainerText>
           </ContainerAbout>
-          <ContainerImage>
-            <img src={ImgGu} alt="" />
-          </ContainerImage>
         </Content>
       </Container>
       {/* <WavesOpacity /> */}
+      <Rock />
     </>
   )
 }

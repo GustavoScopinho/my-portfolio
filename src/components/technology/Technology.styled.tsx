@@ -6,31 +6,45 @@ export const Container = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 8%;
+  flex-direction: column;
 `
 export const ContainerTec = styled.div`
   width: 80%;
   display: flex;
   justify-content: space-around;
   align-items: center;
+
+  margin-left: 8%;
 `
 export const ContainerText = styled.div`
-  width: 600px;
+  width: 800px;
   color: #c4c4c4;
   font-size: 18px;
+`
+
+export const ContainerImage = styled.div`
+  display: flex;
+  justify-content: space-between;
+`
+export const Title = styled.div`
+  background-color: #f0f8ff24;
+  border-radius: 19px;
+  width: 60%;
+  height: 102px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2%;
 
   h1 {
     color: #fff;
-
+    opacity: 0.7;
     font-weight: 700;
-    text-shadow: -1px -1px 0px #000, -1px 1px 0px #000, 1px -1px 0px #000,
-      1px 0px 0px #000;
-    font-size: 60px;
+
+    font-size: 40px;
   }
 
   span {
     color: #b8dffa;
   }
 `
-
-export const ContainerImage = styled.div``

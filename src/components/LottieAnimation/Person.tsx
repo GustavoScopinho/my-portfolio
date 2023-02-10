@@ -1,6 +1,5 @@
-import React from 'react'
 import Lottie from 'react-lottie'
-import PersonDesk from '../../assets/person-at-desk.json'
+import PersonDesk from '../../assets/computer.json'
 
 export const Person = () => {
   const defaultOptions = {
@@ -10,7 +9,7 @@ export const Person = () => {
   }
   return (
     <>
-      <Lottie options={defaultOptions} width={800} height={500} />
+      <Lottie options={defaultOptions} width={700} height={700} />
     </>
   )
 }

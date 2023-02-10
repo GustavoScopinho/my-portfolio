@@ -7,21 +7,27 @@ body {
   -moz-osx-font-smoothing: grayscale;
 
   background-color: #071a51;
-
-  /* position: absolute;
-  width: 566px;
-  height: 566px;
-  left: calc(50% - 566px / 2 + 489px);
-  top: 215px;
-
-  background: rgba(170, 217, 217, 0.78);
-  opacity: 0.55;
-  filter: blur(127px); */
 }
 
 * {
   font-family: 'Cormorant Garamond', serif;
   font-family: 'Outfit', sans-serif;
+}
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #b8dffa;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #b8dffa;
 }
 
 code {

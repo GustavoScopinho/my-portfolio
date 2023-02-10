@@ -3,7 +3,7 @@ import styled from 'styled-components'
 export const Container = styled.div`
   width: 100%;
   height: 100vh;
-  background-color: #081e62;
+  /* background-color: #1e1e1e; */
   display: flex;
   justify-content: center;
   align-items: space-between;
@@ -34,11 +34,16 @@ export const ContainerAbout = styled.div`
 `
 
 export const Content = styled.div`
-  width: 80%;
+  width: 75%;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
-  margin: 10% auto 0 auto;
+  margin: 0 auto;
+  border: 1px solid #f0f8ff24;
+  padding: 0px 50px;
+
+  height: 80%;
+  border-radius: 20px;
 
   @media (max-width: 1040px) {
     flex-direction: column;
@@ -46,9 +51,12 @@ export const Content = styled.div`
 `
 
 export const ContainerImage = styled.div`
+  width: 50%;
+  display: flex;
+  justify-content: center;
+
   img {
     width: 400px;
-    margin-top: 15%;
 
     @media (max-width: 760px) {
       margin-top: 50px;
@@ -86,5 +94,5 @@ export const ContainerText = styled.div`
 export const ContainerLottie = styled.div`
   position: absolute;
   bottom: -160px;
-  left: 100px;
+  right: 100px;
 `

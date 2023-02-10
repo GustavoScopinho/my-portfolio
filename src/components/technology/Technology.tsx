@@ -4,21 +4,21 @@ import {
   Container,
   ContainerImage,
   ContainerTec,
-  ContainerText
+  ContainerText,
+  Title
 } from './Technology.styled'
 
 export const Technology = () => {
   return (
     <>
       <Container>
+        <Title>
+          <h1>
+            <span>T</span>ecnologias <span>:</span>
+          </h1>
+        </Title>
         <ContainerTec>
-          <ContainerImage>
-            <Person />
-          </ContainerImage>
           <ContainerText>
-            <h1>
-              <span>T</span>ecnologias <span>:</span>
-            </h1>
             <p>• Javascript, Typescript</p>
             <p>
               • React.js (Utilizando Redux e Context como gerenciador de estado)
@@ -32,6 +32,9 @@ export const Technology = () => {
             <p>• Git/Github </p>
             <p>• Metodologias Ágeis como Scrum e Kanban</p>
           </ContainerText>
+          <ContainerImage>
+            <Person />
+          </ContainerImage>
         </ContainerTec>
       </Container>
     </>
