@@ -1,4 +1,3 @@
-import React from 'react'
 import {
   Container,
   ContainerAbout,
@@ -8,9 +7,9 @@ import {
   Content
 } from './About.styled'
 import ImgGu from '../../assets/gu-profile.png'
-import { Wave } from '../wave/Wave'
+
 import { Foguete } from '../LottieAnimation/Foguete'
-import { WavesOpacity } from '../wavesOpacity/WavesOpacity'
+
 import { Rock } from '../rock/Rock'
 
 export const About = () => {

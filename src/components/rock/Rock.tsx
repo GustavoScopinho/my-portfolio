@@ -1,4 +1,3 @@
-import React from 'react'
 import RockImg from '../../assets/rock.png'
 import { Container } from './Rock.styled'
 
