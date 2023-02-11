@@ -65,18 +65,6 @@ export const ContainerImage = styled.div`
   }
 `
 export const ContainerText = styled.div`
-  /* width: 450px;
-  background: linear-gradient(
-    106.51deg,
-    rgba(255, 255, 255, 0.2) 3.44%,
-    rgba(255, 255, 255, 0.085) 64.82%
-  );
-  backdrop-filter: blur(15px);
-  height: 350px;
-  padding: 30px;
-  border-radius: 10px;
-  display: flex; */
-
   flex-direction: column;
   align-items: center;
 

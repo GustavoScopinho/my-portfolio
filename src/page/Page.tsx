@@ -1,6 +1,7 @@
 import React from 'react'
 import { About } from '../components/about/About'
 import { Header } from '../components/header/Header'
+import { Projects } from '../components/projects/Projects'
 import { Rock } from '../components/rock/Rock'
 import { Section } from '../components/section/Section'
 import { Technology } from '../components/technology/Technology'
@@ -12,10 +13,9 @@ export const Page = () => {
     <>
       <Header />
       <Section />
-      {/* <Wave /> */}
       <About />
-      {/* <WavesOpacity /> */}
       <Technology />
+      <Projects />
     </>
   )
 }
