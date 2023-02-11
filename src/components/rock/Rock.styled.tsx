@@ -6,7 +6,7 @@ export const Container = styled.div`
   align-items: center;
   justify-content: space-around;
   position: absolute;
-  bottom: -70px;
+  bottom: -10px;
   img {
     width: 40px;
     animation: rock 7s linear infinite;
