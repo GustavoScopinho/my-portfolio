@@ -8,7 +8,6 @@ export const Container = styled.section`
   display: flex;
   align-items: center;
   justify-content: space-around;
-  /* margin-bottom: 20px; */
 
   @media (max-width: 650px) {
     flex-direction: column-reverse;

@@ -7,24 +7,9 @@ import {
   Content
 } from './About.styled'
 import ImgGu from '../../assets/gu-profile.png'
-import { Fade, Zoom } from 'react-awesome-reveal'
+import { Fade } from 'react-awesome-reveal'
 import { Foguete } from '../LottieAnimation/Foguete'
 import { Rock } from '../rock/Rock'
-import Reveal from 'react-awesome-reveal'
-import { keyframes } from '@emotion/react'
-
-const fadeInUp = keyframes`
-  0% {
-    opacity: 0;
-    -webkit-transform: translateY(40px);
-    transform: translateY(40px);
-  }
-  100% {
-    opacity: 1;
-    -webkit-transform: translateY(0);
-    transform: translateY(0);
-  }
-`
 
 export const About = () => {
   return (
@@ -58,7 +43,6 @@ export const About = () => {
           </ContainerAbout>
         </Content>
       </Container>
-      {/* <WavesOpacity /> */}
       <Rock />
     </>
   )
