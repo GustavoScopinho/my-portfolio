@@ -1,11 +1,16 @@
 import React from 'react'
 import GifApiPessoa from '../../assets/gifs/api-pessoa.gif'
-import Button from '@mui/material/Button'
+
 import Dialog from '@mui/material/Dialog'
 import DialogContent from '@mui/material/DialogContent'
 import DialogContentText from '@mui/material/DialogContentText'
 import DialogTitle from '@mui/material/DialogTitle'
-import { ContainerText } from '../slide/Slide.styled'
+import {
+  ButtonDescription,
+  ContainerIcon,
+  ContainerText
+} from '../slide/Slide.styled'
+import { VscGithub } from 'react-icons/vsc'
 
 export const ApiPessoa = () => {
   const [open, setOpen] = React.useState(false)
@@ -24,9 +29,14 @@ export const ApiPessoa = () => {
       </ContainerText>
       <img src={GifApiPessoa} alt="" />
       <ContainerText>
-        <Button variant="outlined" onClick={handleClickOpen}>
+        <ButtonDescription onClick={handleClickOpen}>
           Abrir descrição da aplicação
-        </Button>
+        </ButtonDescription>
+        <ContainerIcon>
+          <a href="https://github.com/GustavoScopinho/dadospessoais-api">
+            <VscGithub size={28} />
+          </a>
+        </ContainerIcon>
         <Dialog
           open={open}
           onClose={handleClose}

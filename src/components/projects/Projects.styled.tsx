@@ -12,5 +12,6 @@ export const ContainerText = styled.div`
     font-size: 50px;
     color: #fff;
     font-weight: 600;
+    margin-bottom: -20px;
   }
 `

@@ -17,6 +17,9 @@ body {
 ::-webkit-scrollbar {
   width: 10px;
 }
+a {
+  color: #fff;
+}
 
 ::-webkit-scrollbar-track {
   border-radius: 10px;

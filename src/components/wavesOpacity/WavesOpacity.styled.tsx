@@ -1,20 +1,24 @@
 import styled from 'styled-components'
 
 export const Container = styled.div`
-  width: 100%;
-  overflow: hidden;
-  position: absolute;
-  margin-top: -10px;
-  transform: rotate(180deg);
+  .custom-shape-divider-bottom-1676331941 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+  }
 
-  svg {
+  .custom-shape-divider-bottom-1676331941 svg {
     position: relative;
     display: block;
     width: calc(100% + 1.3px);
-    height: 217px;
-    transform: rotateY(180deg);
+    height: 123px;
   }
-  .shape-fill {
-    /* fill: #1e1e1e; */
+
+  .custom-shape-divider-bottom-1676331941 .shape-fill {
+    fill: #ffffff;
   }
 `

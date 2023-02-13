@@ -1,22 +1,18 @@
 import { Fade } from 'react-awesome-reveal'
+import { BoxTitle } from '../boxTitle/BoxTitle'
 import { Person } from '../LottieAnimation/Person'
 import {
   Container,
   ContainerImage,
   ContainerTec,
-  ContainerText,
-  Title
+  ContainerText
 } from './Technology.styled'
 
 export const Technology = () => {
   return (
     <>
       <Container>
-        <Title>
-          <h1>
-            <span>T</span>ecnologias <span>:</span>
-          </h1>
-        </Title>
+        <BoxTitle title={'Tecnologia'} />
         <ContainerTec>
           <ContainerText>
             <Fade direction="left" delay={400} duration={600} triggerOnce>

@@ -18,33 +18,11 @@ export const ContainerTec = styled.div`
 `
 export const ContainerText = styled.div`
   width: 800px;
-  color: #c4c4c4;
+  color: rgba(255, 255, 255, 0.9);
   font-size: 18px;
 `
 
 export const ContainerImage = styled.div`
   display: flex;
   justify-content: space-between;
-`
-export const Title = styled.div`
-  background-color: #f0f8ff24;
-  border-radius: 19px;
-  width: 60%;
-  height: 102px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-bottom: 2%;
-
-  h1 {
-    color: #fff;
-    opacity: 0.7;
-    font-weight: 700;
-
-    font-size: 40px;
-  }
-
-  span {
-    color: #b8dffa;
-  }
 `

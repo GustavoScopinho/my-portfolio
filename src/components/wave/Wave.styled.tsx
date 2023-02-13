@@ -17,6 +17,6 @@ export const Container = styled.div`
     transform: rotateY(180deg);
   }
   .shape-fill {
-    fill: #071a51;
+    fill: #fff;
   }
 `

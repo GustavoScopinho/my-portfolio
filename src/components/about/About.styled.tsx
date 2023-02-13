@@ -20,11 +20,14 @@ export const ContainerAbout = styled.div`
     width: 95%;
   }
   h1 {
-    color: #fff;
+    background: linear-gradient(92deg, #fff 0.7%, #00a3ff 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
 
     font-weight: 700;
-    text-shadow: -1px -1px 0px #000, -1px 1px 0px #000, 1px -1px 0px #000,
-      1px 0px 0px #000;
+
     font-size: 60px;
   }
 
@@ -74,7 +77,7 @@ export const ContainerText = styled.div`
   }
 
   p {
-    color: #c4c4c4;
+    color: rgba(255, 255, 255, 0.9);
     font-size: 18px;
   }
 `
