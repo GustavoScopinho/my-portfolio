@@ -8,6 +8,11 @@ export const Container = styled.div`
   margin: 0 auto;
   img {
     width: 100%;
-    height: 100%;
+    height: 20%;
+    border-radius: 5px;
   }
+`
+
+export const ContainerText = styled.div`
+  color: #fff;
 `
