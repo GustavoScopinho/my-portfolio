@@ -1,4 +1,3 @@
-import React from 'react'
 import {
   ButtonSC,
   Container,
@@ -37,7 +36,11 @@ export const Section = () => {
           </Reveal>
 
           <Reveal keyframes={fadeInUp} delay={800} duration={900} triggerOnce>
-            <ButtonSC>LINKEDIN</ButtonSC>
+            <ButtonSC>
+              <a href="https://www.linkedin.com/in/gustavo-scopinho/">
+                LINKEDIN
+              </a>
+            </ButtonSC>
           </Reveal>
         </ContainerText>
         <ContainerImagem>

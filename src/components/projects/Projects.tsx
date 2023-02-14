@@ -4,7 +4,7 @@ import { Container, ContainerText } from './Projects.styled'
 export const Projects = () => {
   return (
     <>
-      <Container>
+      <Container id="projects">
         <ContainerText>
           <h1>Projetos</h1>
         </ContainerText>

@@ -2,22 +2,17 @@ import {
   Container,
   ContainerAbout,
   ContainerImage,
-  ContainerLottie,
   ContainerText,
   Content
 } from './About.styled'
 import ImgGu from '../../assets/gu-profile.png'
 import { Fade } from 'react-awesome-reveal'
-import { Foguete } from '../LottieAnimation/Foguete'
 import { Rock } from '../rock/Rock'
 
 export const About = () => {
   return (
     <>
-      <Container>
-        {/* <ContainerLottie>
-          <Foguete />
-        </ContainerLottie> */}
+      <Container id="about">
         <Content>
           <ContainerImage>
             <Fade direction="left" delay={400} duration={600} triggerOnce>

@@ -1,4 +1,5 @@
 import React from 'react'
+import { Fade } from 'react-awesome-reveal'
 import { BoxTitle } from '../boxTitle/BoxTitle'
 import { ContactLottie } from '../LottieAnimation/ContactLottie'
 import { EmailLottie } from '../LottieAnimation/EmailLottie'
@@ -13,25 +14,32 @@ import {
 export const Contact = () => {
   return (
     <>
-      <Container>
+      <Container id="contact">
         <BoxTitle title="Contato" />
         <ContainerContent>
           <div>
-            <ContactLottie />
+            <Fade direction="left" delay={400} duration={600} triggerOnce>
+              <ContactLottie />
+            </Fade>
           </div>
+
           <ContainerText>
-            <h1>Entre em contato via:</h1>
+            <Fade direction="right" delay={400} duration={600} triggerOnce>
+              <h1>Entre em contato via:</h1>
+              <Box>
+                <div>
+                  <LinkedinLottie />
+                </div>
+                <p>/in/gustavo-scopinho/</p>
+              </Box>
+            </Fade>
             <Box>
-              <div>
-                <LinkedinLottie />
-              </div>
-              <p>/in/gustavo-scopinho/</p>
-            </Box>
-            <Box>
-              <div>
-                <EmailLottie />
-              </div>
-              <p>guh.fs@hotmail.com</p>
+              <Fade direction="right" delay={650} duration={600} triggerOnce>
+                <div>
+                  <EmailLottie />
+                </div>
+                <p>guh.fs@hotmail.com</p>
+              </Fade>
             </Box>
           </ContainerText>
         </ContainerContent>

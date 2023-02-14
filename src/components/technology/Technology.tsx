@@ -11,8 +11,8 @@ import {
 export const Technology = () => {
   return (
     <>
-      <Container>
-        <BoxTitle title={'Tecnologia'} />
+      <Container id="technology">
+        <BoxTitle title={'Tecnologias'} />
         <ContainerTec>
           <ContainerText>
             <Fade direction="left" delay={400} duration={600} triggerOnce>

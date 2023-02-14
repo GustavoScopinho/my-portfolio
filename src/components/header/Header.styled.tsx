@@ -15,4 +15,13 @@ export const ContainerHeader = styled.div`
     top: 0;
     left: 0px;
   }
+
+  a {
+    z-index: 999;
+    text-decoration: none;
+
+    :hover {
+      color: #b9e0fb;
+    }
+  }
 `

@@ -88,4 +88,19 @@ export const ButtonSC = styled.button`
   font-weight: 500;
   font-size: 22px;
   cursor: pointer;
+  transition: all 300ms cubic-bezier(0.23, 1, 0.32, 1);
+
+  :hover {
+    box-shadow: #b9dffb69 0 8px 15px;
+    transform: translateY(-2px);
+  }
+
+  :disabled {
+    pointer-events: none;
+  }
+
+  :active {
+    box-shadow: none;
+    transform: translateY(0);
+  }
 `

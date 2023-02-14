@@ -9,5 +9,9 @@ export const Container = styled.div`
     width: 60px;
     height: 60px;
     cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  :hover {
+    transform: scale(1.03);
   }
 `

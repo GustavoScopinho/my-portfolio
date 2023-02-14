@@ -6,7 +6,7 @@ export const Container = styled.div`
   display: flex;
   align-items: center;
   flex-direction: column;
-  margin-top: 5%;
+  padding-top: 5%;
 `
 
 export const ContainerText = styled.div`
