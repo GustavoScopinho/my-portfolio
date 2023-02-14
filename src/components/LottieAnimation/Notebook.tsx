@@ -1,18 +1,18 @@
 import Lottie from 'react-lottie'
-import ContactAnimation from '../../assets/contact-animate.json'
+import NotebookLottie from '../../assets/computer.json'
 
-export const ContactLottie = () => {
+export const Notebook = () => {
   const defaultOptions = {
     loop: true,
     autoplay: true,
-    animationData: ContactAnimation
+    animationData: NotebookLottie
   }
   return (
     <>
       <Lottie
         options={defaultOptions}
-        width={500}
-        height={500}
+        width={700}
+        height={700}
         style={{ pointerEvents: 'none' }}
       />
     </>

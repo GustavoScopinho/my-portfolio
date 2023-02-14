@@ -1,6 +1,6 @@
 import { Fade } from 'react-awesome-reveal'
 import { BoxTitle } from '../boxTitle/BoxTitle'
-import { Person } from '../LottieAnimation/Person'
+import { Notebook } from '../LottieAnimation/Notebook'
 import {
   Container,
   ContainerImage,
@@ -32,8 +32,8 @@ export const Technology = () => {
             </Fade>
           </ContainerText>
           <ContainerImage>
-            <Fade direction="right" delay={400} duration={600} triggerOnce>
-              <Person />
+            <Fade direction="right" delay={600} duration={600} triggerOnce>
+              <Notebook />
             </Fade>
           </ContainerImage>
         </ContainerTec>
