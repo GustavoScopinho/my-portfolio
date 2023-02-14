@@ -10,6 +10,7 @@ export const Text = styled.div`
   width: 100%;
   display: flex;
   justify-content: center;
-  align-items: center;
   color: #fff;
+  position: absolute;
+  /* bottom: -200px; */
 `

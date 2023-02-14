@@ -1,9 +1,12 @@
-import { Container } from './Wave.styled'
+import { Container, Text } from './Wave.styled'
 
 export const Wave = () => {
   return (
     <>
       <Container>
+        <Text>
+          <p>© 2023 Copyright - Desenvolvedor Gustavo Scopinho</p>
+        </Text>
         <svg
           data-name="Layer 1"
           xmlns="http://www.w3.org/2000/svg"

@@ -6,9 +6,9 @@ export const Footer = () => {
     <>
       <Container>
         <Wave />
-        <Text>
-          <p>&copy 2023 Copyright - Programador Gustavo Scopinho</p>
-        </Text>
+        {/* <Text>
+          <p>© 2023 Copyright - Desenvolvedor Gustavo Scopinho</p>
+        </Text> */}
       </Container>
     </>
   )

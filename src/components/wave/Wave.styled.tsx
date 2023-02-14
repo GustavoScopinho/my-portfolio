@@ -19,3 +19,20 @@ export const Container = styled.div`
     fill: #f0f8ff24;
   }
 `
+export const Text = styled.div`
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  bottom: 10px;
+  p {
+    color: #fff;
+    text-align: center;
+  }
+
+  @media (max-width: 640px) {
+    p {
+      width: 150px;
+    }
+  }
+`
