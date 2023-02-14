@@ -8,7 +8,7 @@ export const Container = styled.div`
     width: 100%;
     overflow: hidden;
     line-height: 0;
-    transform: rotate(180deg);
+    /* transform: rotate(180deg); */
   }
 
   .custom-shape-divider-bottom-1676331941 svg {

@@ -17,7 +17,6 @@ export const Contact = () => {
         <BoxTitle title="Contato" />
         <ContainerContent>
           <div>
-            {' '}
             <ContactLottie />
           </div>
           <ContainerText>

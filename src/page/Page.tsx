@@ -1,12 +1,11 @@
 import { About } from '../components/about/About'
 import { Contact } from '../components/contact/Contact'
+import { Footer } from '../components/footer/Footer'
 import { Header } from '../components/header/Header'
 import { Projects } from '../components/projects/Projects'
-
 import { Section } from '../components/section/Section'
+import { StickerFoguete } from '../components/stickerFoguete/StickerFoguete'
 import { Technology } from '../components/technology/Technology'
-import { Wave } from '../components/wave/Wave'
-import { WavesOpacity } from '../components/wavesOpacity/WavesOpacity'
 
 export const Page = () => {
   return (
@@ -17,6 +16,8 @@ export const Page = () => {
       <Technology />
       <Projects />
       <Contact />
+      <Footer />
+      <StickerFoguete />
     </>
   )
 }

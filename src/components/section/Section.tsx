@@ -7,7 +7,7 @@ import {
   ContainerText
 } from './Section.styled'
 import Astronaut from '../../assets/img-gu.png'
-import Reveal, { Bounce, Zoom } from 'react-awesome-reveal'
+import Reveal from 'react-awesome-reveal'
 import { keyframes } from '@emotion/react'
 
 const fadeInUp = keyframes`

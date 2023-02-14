@@ -1,5 +1,3 @@
-import React from 'react'
-import { Foguete } from '../LottieAnimation/Foguete'
 import { Container } from './Wave.styled'
 
 export const Wave = () => {

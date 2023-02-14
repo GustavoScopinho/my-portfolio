@@ -4,8 +4,6 @@ export const Container = styled.div`
   width: 100%;
   overflow: hidden;
   position: absolute;
-  margin-top: -10px;
-  transform: rotate(180deg);
 
   @media (max-width: 1040px) {
     position: static;
@@ -13,10 +11,11 @@ export const Container = styled.div`
 
   svg {
     width: calc(100% + 1.3px);
-    height: 217px;
+    height: 230px;
     transform: rotateY(180deg);
+    margin-bottom: -4px;
   }
   .shape-fill {
-    fill: #fff;
+    fill: #f0f8ff24;
   }
 `
