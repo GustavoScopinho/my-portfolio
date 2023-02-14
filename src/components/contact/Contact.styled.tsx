@@ -7,6 +7,12 @@ export const Container = styled.div`
   align-items: center;
   flex-direction: column;
   padding-top: 5%;
+
+  @media (max-width: 760px) {
+    padding: 0;
+    height: 100%;
+    margin-top: -90%;
+  }
 `
 
 export const ContainerText = styled.div`
@@ -25,6 +31,10 @@ export const ContainerContent = styled.div`
   display: flex;
   justify-content: space-around;
   align-items: center;
+
+  @media (max-width: 760px) {
+    flex-direction: column;
+  }
 `
 export const Box = styled.div`
   width: 100%;

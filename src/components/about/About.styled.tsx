@@ -15,10 +15,6 @@ export const ContainerAbout = styled.div`
   justify-content: center;
   flex-direction: column;
   width: 600px;
-
-  @media (max-width: 760px) {
-    width: 95%;
-  }
   h1 {
     background: linear-gradient(92deg, #fff 0.7%, #00a3ff 100%);
     -webkit-background-clip: text;
@@ -34,6 +30,13 @@ export const ContainerAbout = styled.div`
   span {
     color: #b8dffa;
   }
+
+  @media (max-width: 840px) {
+    width: 100%;
+    h1 {
+      font-size: 36px;
+    }
+  }
 `
 
 export const Content = styled.div`
@@ -48,8 +51,14 @@ export const Content = styled.div`
   height: 80%;
   border-radius: 20px;
 
-  @media (max-width: 1040px) {
+  @media (max-width: 1100px) {
     flex-direction: column;
+  }
+
+  @media (max-width: 600px) {
+    width: 68%;
+    height: 100%;
+    margin-top: 20%;
   }
 `
 
@@ -61,7 +70,7 @@ export const ContainerImage = styled.div`
   img {
     width: 400px;
 
-    @media (max-width: 760px) {
+    @media (max-width: 1000px) {
       margin-top: 50px;
       width: 280px;
     }
@@ -79,6 +88,10 @@ export const ContainerText = styled.div`
   p {
     color: rgba(255, 255, 255, 0.9);
     font-size: 18px;
+  }
+
+  @media (max-width: 760px) {
+    width: 100%;
   }
 `
 

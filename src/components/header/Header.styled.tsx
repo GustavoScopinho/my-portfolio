@@ -23,5 +23,9 @@ export const ContainerHeader = styled.div`
     :hover {
       color: #b9e0fb;
     }
+
+    @media (max-width: 760px) {
+      display: none;
+    }
   }
 `

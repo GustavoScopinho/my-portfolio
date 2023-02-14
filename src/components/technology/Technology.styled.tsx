@@ -7,6 +7,10 @@ export const Container = styled.div`
   justify-content: center;
   align-items: center;
   flex-direction: column;
+
+  @media (max-width: 760px) {
+    margin-top: 60%;
+  }
 `
 export const ContainerTec = styled.div`
   width: 80%;
@@ -15,11 +19,20 @@ export const ContainerTec = styled.div`
   align-items: center;
 
   margin-left: 8%;
+
+  @media (max-width: 760px) {
+    flex-direction: column-reverse;
+  }
 `
 export const ContainerText = styled.div`
   width: 800px;
   color: rgba(255, 255, 255, 0.9);
   font-size: 18px;
+
+  @media (max-width: 760px) {
+    margin-top: -10%;
+    width: 100%;
+  }
 `
 
 export const ContainerImage = styled.div`

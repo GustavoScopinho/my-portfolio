@@ -11,8 +11,8 @@ export const Notebook = () => {
     <>
       <Lottie
         options={defaultOptions}
-        width={700}
-        height={700}
+        width={650}
+        height={550}
         style={{ pointerEvents: 'none' }}
       />
     </>

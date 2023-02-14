@@ -21,4 +21,15 @@ export const Title = styled.div`
   span {
     opacity: 0.1;
   }
+
+  @media (max-width: 760px) {
+    height: 78px;
+    h1 {
+      font-size: 28px;
+    }
+
+    span {
+      display: none;
+    }
+  }
 `

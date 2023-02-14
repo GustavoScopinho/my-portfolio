@@ -28,8 +28,11 @@ export const Contact = () => {
               <h1>Entre em contato via:</h1>
               <Box>
                 <div>
-                  <LinkedinLottie />
+                  <a href="https://www.linkedin.com/in/gustavo-scopinho/">
+                    <LinkedinLottie />
+                  </a>
                 </div>
+
                 <p>/in/gustavo-scopinho/</p>
               </Box>
             </Fade>
