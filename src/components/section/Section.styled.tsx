@@ -11,7 +11,7 @@ export const Container = styled.section`
 
   @media (max-width: 650px) {
     flex-direction: column-reverse;
-    margin: 0 0 -15% 0;
+    min-height: 100%;
   }
 `
 
@@ -68,6 +68,7 @@ export const ContainerText = styled.div`
   }
 
   @media (max-width: 800px) {
+    margin: 0 0 10% 0;
     h1 {
       font-size: 38px;
     }

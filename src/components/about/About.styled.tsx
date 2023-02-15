@@ -3,11 +3,15 @@ import styled from 'styled-components'
 export const Container = styled.div`
   width: 100%;
   height: 100vh;
-  /* background-color: #1e1e1e; */
   display: flex;
   justify-content: center;
   align-items: space-between;
   flex-direction: column;
+
+  @media (max-width: 650px) {
+    min-height: 100%;
+    margin-top: 12%;
+  }
 `
 
 export const ContainerAbout = styled.div`
