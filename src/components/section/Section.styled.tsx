@@ -35,6 +35,10 @@ export const ContainerBlur = styled.div`
   background: rgba(170, 217, 217, 0.78);
   opacity: 0.25;
   filter: blur(127px);
+
+  @media (max-width: 800px) {
+    display: none;
+  }
 `
 
 export const ContainerText = styled.div`
