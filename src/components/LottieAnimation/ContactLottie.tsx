@@ -11,7 +11,7 @@ export const ContactLottie = () => {
     <>
       <Lottie
         options={defaultOptions}
-        width={450}
+        width={'100%'}
         height={500}
         style={{ pointerEvents: 'none' }}
       />
