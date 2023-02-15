@@ -1,5 +1,5 @@
 import { ContainerHeader } from './Header.styled'
-import ImgGradient from '../../assets/Gradient-1.png'
+import ImgGradient from '../../assets/gradient.png'
 
 export const Header = () => {
   return (

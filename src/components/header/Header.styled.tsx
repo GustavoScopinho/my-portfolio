@@ -14,6 +14,10 @@ export const ContainerHeader = styled.div`
     position: absolute;
     top: 0;
     left: 0px;
+
+    @media (max-width: 760px) {
+      width: 100%;
+    }
   }
 
   a {
