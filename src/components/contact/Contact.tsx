@@ -1,4 +1,3 @@
-import React from 'react'
 import { Fade } from 'react-awesome-reveal'
 import { BoxTitle } from '../boxTitle/BoxTitle'
 import { ContactLottie } from '../LottieAnimation/ContactLottie'

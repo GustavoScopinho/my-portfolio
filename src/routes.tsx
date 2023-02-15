@@ -1,6 +1,6 @@
 import { Page } from './page/Page'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
-import { Error } from './components/error/Error'
+import { Error } from './page/error/Error'
 
 function AppRoutes() {
   return (

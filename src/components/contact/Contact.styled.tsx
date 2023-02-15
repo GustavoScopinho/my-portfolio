@@ -11,7 +11,7 @@ export const Container = styled.div`
   @media (max-width: 760px) {
     padding: 0;
     height: 100%;
-    margin-top: -90%;
+    margin-top: 20%;
   }
 `
 
@@ -23,6 +23,10 @@ export const ContainerText = styled.div`
 
   h1 {
     font-size: 36px;
+
+    @media (max-width: 760px) {
+      font-size: 26px;
+    }
   }
 `
 export const ContainerContent = styled.div`
@@ -47,5 +51,8 @@ export const Box = styled.div`
 
   p {
     font-size: 26px;
+    @media (max-width: 760px) {
+      font-size: 20px;
+    }
   }
 `

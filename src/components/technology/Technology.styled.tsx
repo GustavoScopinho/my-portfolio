@@ -9,7 +9,8 @@ export const Container = styled.div`
   flex-direction: column;
 
   @media (max-width: 760px) {
-    margin-top: 60%;
+    height: 100%;
+    margin-top: 20%;
   }
 `
 export const ContainerTec = styled.div`
@@ -32,10 +33,15 @@ export const ContainerText = styled.div`
   @media (max-width: 760px) {
     margin-top: -10%;
     width: 100%;
+    height: 100%;
   }
 `
 
 export const ContainerImage = styled.div`
   display: flex;
   justify-content: space-between;
+
+  @media (max-width: 760px) {
+    margin: -30% 0;
+  }
 `

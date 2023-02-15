@@ -98,7 +98,6 @@ export const ContainerText = styled.div`
     width: 100%;
   }
 `
-
 export const ContainerLottie = styled.div`
   position: absolute;
   bottom: -160px;

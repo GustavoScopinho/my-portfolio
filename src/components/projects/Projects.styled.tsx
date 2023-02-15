@@ -5,7 +5,8 @@ export const Container = styled.div`
   height: 100vh;
 
   @media (max-width: 760px) {
-    margin-top: 50%;
+    margin-top: 20%;
+    height: 100%;
   }
 `
 export const ContainerText = styled.div`
