@@ -17,6 +17,7 @@ export const Page = () => {
       <Projects />
       <Contact />
       <Footer />
+      <StickerFoguete />
     </>
   )
 }
