@@ -9,7 +9,12 @@ export const ErrorLottie = () => {
   }
   return (
     <>
-      <Lottie options={defaultOptions} width={'90%'} height={'90%'} />
+      <Lottie
+        options={defaultOptions}
+        width={'90%'}
+        height={'90%'}
+        style={{ pointerEvents: 'none' }}
+      />
     </>
   )
 }

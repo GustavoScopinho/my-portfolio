@@ -10,6 +10,10 @@ export const ContainerHeader = styled.div`
   gap: 10%;
   font-weight: 400;
 
+  @media (max-width: 760px) {
+    gap: 6%;
+    margin-bottom: 5%;
+  }
   img {
     position: absolute;
     top: 0;
@@ -29,7 +33,8 @@ export const ContainerHeader = styled.div`
     }
 
     @media (max-width: 760px) {
-      display: none;
+      /* display: none; */
+      gap: 2%;
     }
   }
 `
