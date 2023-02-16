@@ -35,7 +35,7 @@ export const ContainerAbout = styled.div`
     color: #b8dffa;
   }
 
-  @media (max-width: 840px) {
+  @media (max-width: 1100px) {
     width: 100%;
     h1 {
       font-size: 36px;
@@ -74,7 +74,7 @@ export const ContainerImage = styled.div`
   img {
     width: 400px;
 
-    @media (max-width: 1000px) {
+    @media (max-width: 1100px) {
       margin-top: 50px;
       width: 280px;
     }

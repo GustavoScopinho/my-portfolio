@@ -22,7 +22,7 @@ export const Title = styled.div`
     opacity: 0.1;
   }
 
-  @media (max-width: 760px) {
+  @media (max-width: 780px) {
     height: 78px;
     h1 {
       font-size: 28px;

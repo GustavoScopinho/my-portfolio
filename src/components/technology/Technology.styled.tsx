@@ -41,7 +41,7 @@ export const ContainerImage = styled.div`
   display: flex;
   justify-content: space-between;
 
-  @media (max-width: 760px) {
+  @media (max-width: 580px) {
     margin: -30% 0;
   }
 `
